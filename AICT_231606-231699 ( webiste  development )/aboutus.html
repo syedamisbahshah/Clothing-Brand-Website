@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link rel="stylesheet" href="aboutus.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .content {
+      max-width: 1260px;
+      margin: auto;
+      background: whitesmoke;
+      padding: 10px;
+    }
+
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      flex: 0 0 calc(33.3% - 16px);
+      margin: 8px;
+      padding: 0 8px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(3, 2, 2, 0.363);
+      margin: 8px;
+      width: 100%;
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: rgb(132, 132, 94);
+      color: white;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #3c3232;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<div class="navbar">
+  <ul>
+      <li class="active"> <a href="Mainpage.html">HOME</a></li>
+      <li class="active"> <a href="shop.html">SHOP</a></li>
+      <li class="active"> <a href="Mainpage.html">FUZE APPAREL</a></li>
+      <li class="active"><a href="aboutus.html">About Us</a></li>
+      <li>
+          <div class="cart"></div>
+      </li>
+  </ul>
+</div>
+
+<body style="background-color: rgb(109, 109, 76);">
+  <div class="content">
+    <div class="about-section">
+      <h1>About Us </h1>
+      <p>Welcome to Fuze Apparel, where we celebrate the essence of contemporary femininity with a touch of Western
+        allure. Born out of a passion for empowering women through style, our brand is a curated collection of fashion
+        that seamlessly blends the bold spirit of the West with the modern woman's elegance. At Fuze Apparel, we believe
+        that clothing is a form of self-expression, and our carefully crafted pieces are designed to make every woman
+        feel confident, beautiful, and uniquely herself. From chic dresses that effortlessly transition from day to night
+        to timeless western-inspired staples, our collection is a testament to the harmonious fusion of fashion and
+        individuality. Join us on a journey where each garment tells a story of strength, sophistication, and the
+        celebration of the diverse beauty that defines the modern woman. Embrace your style evolution with Fuze Apparel –
+        where Western aesthetics meet contemporary allure.</p>
+    </div>
+     <br>
+    <h2 style="text-align:center">MEET OUR TEAM</h2>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="fahad.jpg" alt="Fahad" style="width:100%">
+          <div class="container">
+            <h2>Fahad Iqbal</h2>
+            <p class="title">Founder</p>
+            <p>Just Better!</p>
+            <p><button class="button">Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="WhatsApp Image 2023-12-30 at 21.48.36_5e63502f.jpg" alt="MISBAH" style="width:100%">
+          <div class="container">
+            <h2>Syeda Misbah Ali Shah</h2>
+            <p class="title">Co-Founder</p>
+            <p>Iconic!</p>
+            <p><button class="button">Contact</button></p>
+          
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Instagram: fuze.apparel</p>
+    <p>Email: info@fuzeapparel.com</p>
+    <p>Phone: 051-4800064</p>
+</div>
+</body>
+
+</html>
